@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New</title>
+    <link rel="stylesheet" href="/assets/css/stylesheetupdate.css">
+</head>
+<body>
+    <nav>
+        <h1>UPDATE BIRTHDAY STAR!!</h1>
+    </nav>
+    <main>
+        <form action="/update" method="POST">
+             <span>PERSON: <input class="input" id="personInput" type="text" name="Person" value="<%= data.person %>" readonly></span>
+             <span>DOB: <input class="input" id="dobinput" type="text" name="DOB" placeholder="YYYY-MM-DD" required></span>
+             <input id="submit" type="submit" required>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,114 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    box-sizing:border-box;
+    padding:15px;
+}
+nav{
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+    height:60px;
+    align-items:center;
+    box-sizing:border-box;
+    padding:5px 10px;
+    background-color:black;
+    color:white;
+    border-radius:15px;
+    margin-bottom:10px;
+}
+#createData{
+    display:flex;
+    padding:5px;
+    border-radius:10px;
+}
+#createData:hover{
+    background-color:rgba(200, 201, 204,0.3) ;
+    cursor:pointer;
+}
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#createData svg{
+    width:20px;
+    height:20px;
+}
+#createData span{
+    margin-right:5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    height:100%;
+    width:100%;
+}
+#box{
+    display:flex;
+    flex-direction:column;
+}
+.birthday{
+    height:100px;
+    width:100%;
+    background-color:black;
+    border-radius:10px;
+    box-sizing:border-box;
+    padding:10px;
+    margin-bottom:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.birthday span{
+    display:flex;
+    flex-direction:column;
+    color:white;
+    padding:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#addons{
+    display:flex;
+    flex-direction:column;
+}
+#bin{
+    width:20px;
+    height:20px;
+    margin-bottom:10px;
+    visibility:hidden;
+    padding:5px;
+    border-radius:10px;
+}
+#edit{
+    width:20px;
+    height:20px;
+    visibility:hidden;
+    padding:5px;
+    border-radius:10px;
+}
+.birthday:hover #bin
+{
+    visibility:visible;
+}
+.birthday:hover #edit
+{
+    visibility:visible;
+}
+#edit:hover{
+    background-color:rgba(200, 201, 204,0.3);
+}
+#bin:hover{
+    background-color:rgba(200, 201, 204,0.3);
+}
+
+#createAnchor{
+    color:white;
+    text-decoration:white;
+}
